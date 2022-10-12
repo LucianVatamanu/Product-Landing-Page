@@ -1,0 +1,101 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color:#D3E4CD;
+  margin:0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+@media (max-width: 400px) {
+  header {
+    flex-direction: column;
+  }
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+form {
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: #ADC2A9;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  size:100%;
+}
+
+input {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+section {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9*/
+  border-radius: 1.5rem;
+}
+
+iframe,#grid-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+#header-img{
+
+  width: 120px;
+  height: 60px;
+}
+#nav-bar{
+
+  margin:10px;
+  padding:10px;
+}
+
+.carRental{
+  text-align: center;
+  color:black;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: #FEF5ED;
+  border: 3px solid #99A799;
+  text-align: center;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 1.5rem;
+  margin-top: 10px;
+}
+.other-cars{
+  background-color: #99A799;
+}
